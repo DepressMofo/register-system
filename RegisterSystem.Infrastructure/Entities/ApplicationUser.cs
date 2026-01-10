@@ -6,7 +6,7 @@ namespace RegisterSystem.Infrastructure.Entities
   {
     public string FirstName { get; private set; } = string.Empty;
     public string LastName { get; private set; } = string.Empty;
-    public string FullName => FirstName + LastName;
+    public string FullName => $"{FirstName} {LastName}";
 
     private ApplicationUser() { }
     public ApplicationUser(string firstName, string lastName)
