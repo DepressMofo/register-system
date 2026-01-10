@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using RegisterSystem.Infrastructure.Entities;
+using RegisterSystem.Domain.Entities;
 
 namespace RegisterSystem.Infrastructure.Data.Configurations
 {
