@@ -1,4 +1,5 @@
 using MediatR;
+using RegisterSystem.Application.Common.DTOs.User;
 
 namespace RegisterSystem.Application.Features.Users.Commands.RegisterUser
 {
@@ -7,5 +8,5 @@ namespace RegisterSystem.Application.Features.Users.Commands.RegisterUser
     string LastName,
     string Email,
     string Password
-  ) : IRequest<string>;
+  ) : IRequest<ResponseUserDTO>;
 }
