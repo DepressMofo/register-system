@@ -1,7 +1,7 @@
-using System.ComponentModel.DataAnnotations;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using RegisterSystem.Application.Common.DTOs.User;
+using RegisterSystem.Application.Common.Exceptions;
 using RegisterSystem.Application.Common.Interfaces;
 using RegisterSystem.Domain.Entities;
 

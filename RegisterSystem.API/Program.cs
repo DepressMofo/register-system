@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using RegisterSystem.API.Middleware;
 using RegisterSystem.Application.Common.Interfaces;
 using RegisterSystem.Application.Features.Users.Commands.LoginUser;
 using RegisterSystem.Application.Features.Users.Commands.RegisterUser;
@@ -63,6 +64,8 @@ builder.Services.AddMediatR((cfg) =>
 builder.Services.AddControllers();
 builder.Services.AddScoped<IJwtProvider, JwtProvider>();
 builder.Services.AddScoped<IUserContext, UserContext>();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
 
 var app = builder.Build();
 
@@ -72,6 +75,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseExceptionHandler();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
